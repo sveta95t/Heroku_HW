@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#header {
+  background-color: #3b2f63;
+  background-image: radial-gradient(
+      circle at 50% top,
+      rgba(84, 90, 182, 0.6) 0%,
+      rgba(84, 90, 182, 0) 75%
+    ),
+    radial-gradient(circle at right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-size: 100% 1000px;
+  color: #c7b8d8;
+  margin: 0;
+  min-height: 300px;
+  font-family: "BentonSans", "Helvetica Neue", sans-serif;
+}
+
+#navigation{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 1px;
+    -webkit-font-smoothiing: antialiased;
+    line-height: 1;
+
+}
+
+
+
+.wrapper-full {
+    margin: 0px;
+    position: relative;
+    max-width: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+#logo a {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  width: 143px;
+  height: 40px;
+  background-image: url("img/icon-heruko.png");
+  display: block;
+  background-repeat: no-repeat;
+}
+
+
+#menu .links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 1000px;
+}
+
+#text .wrapper > div {
+  margin: 0px;
+  font-size: 48px;
+  display: block;
+}
+
+
+#text > h3 {
+  font-size: 36px;
+  color: #fff;
+  margin: 0 0 0, 5em 0;
+  line-height: 1.2;
+  font-weight: 300px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+#text > h5 {
+  font-size: 16px;
+  color: #ccbfdb;
+  margin: 0 0 0, 5em 0;
+  line-height: 1.2;
+  font-weight: 400px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 400px;
+  margin-left: 500px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+#subnav {
+  background-color: rgb(208, 202, 202);
+  height: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 800px;
+  gap: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.wrapper-button{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    max-width: 95%;
+}
+
+
+#buttons .paginated{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: "BentonSans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+#buttons .wrapper-one{
+    border-bottom: 1px solid #D8DDE6;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+#buttons .wrapper-two{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.colone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+
+.dark-text > p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    box-sizing: border-box;
+    
+
+}
+
+.btn > form{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    float: right;
+   margin-bottom: 6px;
+   margin-right: 0px;
+}
+
+
+.navigation > div{
+display: block;
+padding: 12.5;
+margin-top: 20px;
+text-decoration: none;
+color: rgba(121,88,159,0.6);
+border-bottom: 3px solid rgba(121,88,159,0);
+    transition: all 0.1s linear;
+}
+
+#container .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: 60px;
+
+}
+
+
+#container > .cards > div {
+  height: 300px;
+  width: 300px;
+  border: 2px solid #794aa2;
+}
+
+
+.current-page {
+    font-size: 13px;
+    text-align: center;
+    padding: auto 20px;
+    display: inline-block;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.current-page{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.left > div{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60px;
+
+}
+
+.btn-preleft{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60px; 
+}
+
+.btn-under{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: initial;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+}
